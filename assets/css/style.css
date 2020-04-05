@@ -1,3 +1,4 @@
+ /* provides styling for all the elements(boxes) under body */
  * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,8 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/* step by step styling for elements coming under semantic header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -72,13 +75,14 @@ p {
     margin-left: 25px;
 }
 
+
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* styling for the side bar benefits */
+/*  step by step stylings for the elements coming under semantic aside*/
  .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -138,6 +142,7 @@ main {
     max-width: 150px;
 }
 
+/* styling for the class search-engine-optimization */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -147,6 +152,7 @@ main {
     color: #ffffff;
 }
 
+/*styling for the class online-reputation-management  */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -156,6 +162,7 @@ main {
     color: #ffffff;
 }
 
+/*styling for the class social-media-marketing  */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -165,18 +172,22 @@ main {
     color: #ffffff;
 }
 
+/* step by step styling of images of classes coming under semantic main */
 .search-engine-optimization img {
     max-height: 200px;
 }
+
 
 .online-reputation-management img {
     max-height: 200px;
 }
 
+
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* step by step stylings of headings of classes coming under semantic main */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -192,6 +203,7 @@ main {
     font-size: 36px;
 }
 
+/* styling for footer elements */
 footer {
     padding: 30px;
     clear: both;
@@ -202,3 +214,5 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+
