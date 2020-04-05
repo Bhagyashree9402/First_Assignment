@@ -50,6 +50,7 @@ p {
     font-size: 16px;
 }
 
+/* styling for cover image */
  .hero { 
     height: 800px;
     width: 100%;
@@ -59,11 +60,13 @@ p {
     background-position: center;
 } 
 
+/* images floats left of its container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* images floats right of its container */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -75,6 +78,7 @@ main {
     margin-left: 20px;
 }
 
+/* styling for the side bar benefits */
  .benefits {
     margin-right: 20px;
     padding: 20px;
